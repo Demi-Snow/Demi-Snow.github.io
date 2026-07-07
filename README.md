@@ -12,9 +12,6 @@
 
 `Power BI` · `DAX` · `SQL` · `Python` · `Tableau` · `Azure` · `Snowflake` · `ArcGIS Pro`
 
-## Currently
-
-Open to Business Intelligence / Analytics roles — individual contributor or lead.
 
 ## Elsewhere
 
