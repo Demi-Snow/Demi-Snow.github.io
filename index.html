@@ -8,7 +8,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 
 <style>
   :root{
@@ -25,8 +25,8 @@
     --gold-soft:#F2CD84;
     --bronze:#C0895A;
     --glow:rgba(232,177,76,.13);
-    --display:"Fraunces",Georgia,serif;
-    --sans:"IBM Plex Sans",system-ui,sans-serif;
+    --display:"Sora",system-ui,sans-serif;
+    --sans:"Inter",system-ui,sans-serif;
     --mono:"IBM Plex Mono",ui-monospace,monospace;
     --maxw:1120px;
   }
@@ -89,8 +89,8 @@
     max-width:var(--maxw);margin:0 auto;padding:16px 28px;
     display:flex;align-items:center;justify-content:space-between;gap:20px;
   }
-  .brand{font-family:var(--display);font-weight:600;font-size:19px;letter-spacing:-.01em}
-  .brand b{color:var(--gold);font-weight:600}
+  .brand{font-family:var(--display);font-weight:700;font-size:24px;letter-spacing:-.015em}
+  .brand b{color:var(--gold);font-weight:800}
   .nav-links{display:flex;gap:30px;align-items:center}
   .nav-links a{
     font-family:var(--mono);font-size:13px;letter-spacing:.04em;color:var(--muted);
@@ -124,12 +124,12 @@
   .hero{position:relative;padding:170px 0 70px}
   .hero .kicker{margin-bottom:26px}
   .hero h1{
-    font-family:var(--display);font-weight:600;
-    font-size:clamp(44px,7.4vw,86px);line-height:1.02;letter-spacing:-.025em;
+    font-family:var(--display);font-weight:700;
+    font-size:clamp(44px,7.4vw,86px);line-height:1.05;letter-spacing:-.025em;
     margin:0 0 22px;
   }
   .hero h1 .accent{
-    font-style:italic;font-weight:400;
+    font-weight:800;
     background:linear-gradient(92deg,var(--gold-soft),var(--gold) 55%,var(--bronze));
     -webkit-background-clip:text;background-clip:text;color:transparent;
   }
@@ -330,7 +330,7 @@
   <div class="wrap">
     <div class="kicker eyebrow">Business Intelligence &amp; Analytics Leader</div>
     <h1>Turning fragmented data<br />into decisions leaders <span class="accent">trust</span>.</h1>
-    <p class="lede">I'm Demi Snow — I build analytics teams from scratch, the <b>executive dashboards</b> leadership runs on, and the <b>cloud pipelines</b> feeding them. Nine-plus years connecting the technical problem to the business one.</p>
+    <p class="lede">I'm Demi Snow — I build the <b>executive dashboards and reporting</b> leadership actually uses to decide, backed by the <b>SQL and pipelines</b> underneath when the numbers need to hold up. Nine-plus years connecting the technical problem to the business one.</p>
     <div class="creds">
       <span>MSDS · Data Science</span>
       <span>MPA · Public Administration</span>
@@ -362,7 +362,8 @@
       <div class="about-copy reveal">
         <div class="eyebrow" style="margin-bottom:18px">Profile</div>
         <p>For nine-plus years I've turned scattered, mistrusted data into <strong>trusted insight, scalable reporting, and the foundation leaders rely on to make confident decisions.</strong></p>
-        <p>I've stood up analytics teams from inception, hired and mentored the analysts on them, and built the full stack underneath — from <strong>Python ETL/ELT pipelines on Azure and a Bronze/Silver/Gold Snowflake model</strong> to the <strong>executive Power BI dashboards</strong> leadership checks every morning. Along the way, my analysis has helped secure over $5M in funding.</p>
+        <p>Day to day, that mostly looks like <strong>executive Power BI dashboards</strong> — built on solid DAX, star-schema models, and time-intelligence — the kind leadership checks every morning to see revenue, appointments, and program performance in real time. When the reporting needs it, I also build the <strong>SQL and Python underneath</strong> so the numbers in the dashboard are ones people can actually trust.</p>
+        <p>I'm equally at home as the analyst going deep on a single report or leading the team that builds a dozen of them — I've also stood up analytics functions from scratch, hiring and mentoring the analysts on them. My <strong>$5M+ in funding-related analysis</strong> has come from both kinds of work.</p>
         <p>Two master's degrees shape how I work: a <strong>Master of Science in Data Science</strong> for the technical problem, and a <strong>Master of Public Administration</strong> for the organizational one. I read both — which is usually where the real answer lives.</p>
       </div>
       <aside class="about-side reveal">
@@ -400,6 +401,30 @@
       </article>
 
       <article class="case reveal">
+        <div class="tag">Power BI · ArcGIS Pro · SQL Server</div>
+        <h3>Predictive crime analysis</h3>
+        <p>Built predictive models and interactive dashboards that enabled targeted patrol strategies in focus areas, and separately analyzed inmate healthcare and medication spending to find cost optimizations.</p>
+        <div class="stack"><span>Predictive models</span><span>SQL Server</span><span>Power BI</span><span>Geospatial</span></div>
+        <div class="impact"><span class="big">20% ↓</span><span class="desc">crime in focus areas ·<br/>$988K medical savings</span></div>
+      </article>
+
+      <article class="case reveal">
+        <div class="tag">ArcGIS Pro · Public Health</div>
+        <h3>Mobile Health expansion analysis</h3>
+        <p>Ran geospatial analysis in ArcGIS Pro to identify underserved communities and quantify service gaps, building the evidence base behind a mobile health expansion proposal.</p>
+        <div class="stack"><span>ArcGIS Pro</span><span>Geospatial</span><span>StoryMaps</span><span>Grant analytics</span></div>
+        <div class="impact"><span class="big">$3.3M</span><span class="desc">grant award directly<br/>supported</span></div>
+      </article>
+
+      <article class="case reveal">
+        <div class="tag">Power BI · Python · Templates</div>
+        <h3>Analytics automation &amp; training</h3>
+        <p>Automated 15+ recurring reports with reusable Power BI and Python templates and rebuilt the division's analytics training program with data-driven, hands-on curriculum.</p>
+        <div class="stack"><span>Automation</span><span>Python</span><span>Templates</span><span>Enablement</span></div>
+        <div class="impact"><span class="big">~400 hrs</span><span class="desc">saved yearly ·<br/>training cost cut 79%</span></div>
+      </article>
+
+      <article class="case reveal">
         <div class="tag">Python · Snowflake · Data integrity</div>
         <h3>CDC deletion-reconciliation framework</h3>
         <p>Designed a Change Data Capture framework using soft-delete flagging and watermarking, parameterized across 38+ NetSuite source tables, to permanently close a data-drift blind spot in the warehouse.</p>
@@ -413,30 +438,6 @@
         <p>Architected Python ETL/ELT pipelines on Azure with GitHub-based CI/CD, ingesting Square, NetSuite, Zoom, Pipedrive, and IntakeQ APIs into a Bronze/Silver/Gold Snowflake model with resilient, self-healing ingestion.</p>
         <div class="stack"><span>Azure Functions</span><span>Data Lake</span><span>CI/CD</span><span>REST / SuiteQL</span></div>
         <div class="impact"><span class="big">20+ hrs</span><span class="desc">of manual processing<br/>removed every month</span></div>
-      </article>
-
-      <article class="case reveal">
-        <div class="tag">ArcGIS Pro · Public Health</div>
-        <h3>Mobile Health expansion analysis</h3>
-        <p>Ran geospatial analysis in ArcGIS Pro to identify underserved communities and quantify service gaps, building the evidence base behind a mobile health expansion proposal.</p>
-        <div class="stack"><span>ArcGIS Pro</span><span>Geospatial</span><span>StoryMaps</span><span>Grant analytics</span></div>
-        <div class="impact"><span class="big">$3.3M</span><span class="desc">grant award directly<br/>supported</span></div>
-      </article>
-
-      <article class="case reveal">
-        <div class="tag">Power BI · ArcGIS Pro · SQL Server</div>
-        <h3>Predictive crime analysis</h3>
-        <p>Built predictive models and interactive dashboards that enabled targeted patrol strategies in focus areas, and separately analyzed inmate healthcare and medication spending to find cost optimizations.</p>
-        <div class="stack"><span>Predictive models</span><span>SQL Server</span><span>Power BI</span><span>Geospatial</span></div>
-        <div class="impact"><span class="big">20% ↓</span><span class="desc">crime in focus areas ·<br/>$988K medical savings</span></div>
-      </article>
-
-      <article class="case reveal">
-        <div class="tag">Power BI · Python · Templates</div>
-        <h3>Analytics automation &amp; training</h3>
-        <p>Automated 15+ recurring reports with reusable Power BI and Python templates and rebuilt the division's analytics training program with data-driven, hands-on curriculum.</p>
-        <div class="stack"><span>Automation</span><span>Python</span><span>Templates</span><span>Enablement</span></div>
-        <div class="impact"><span class="big">~400 hrs</span><span class="desc">saved yearly ·<br/>training cost cut 79%</span></div>
       </article>
 
     </div>
